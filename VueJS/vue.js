@@ -76,7 +76,7 @@ function remove$1 (arr, item) {
 
 /**
  * Check whether the object has the property.
- * 检查对象是否具有属性，亦可用for in 循环遍历，此处代码更少
+ * 检查对象是否具有属性
  */
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 function hasOwn (obj, key) {
