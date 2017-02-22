@@ -85,7 +85,7 @@ function hasOwn (obj, key) {
 
 /**
  * Check if value is primitive
- * 检查是否为原始的
+ * 检查是否为值类型
  */
 function isPrimitive (value) {
   return typeof value === 'string' || typeof value === 'number'
